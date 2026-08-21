@@ -1,7 +1,52 @@
 body {
-    background-color: rgb(37, 31, 32);
+    background-color: #121214;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
-h1 {
-    color: rgb(97, 123, 141);
+header {
+    background-color: #1a1b26;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #a855f7;
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+header h1 span {
+    color: #00d2df;
+}
+
+h2 {
+    color: #a855f7;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #1a1b26;
+    border-top: 2px solid #a855f7;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    color: #a0a0b0;
+    font-size: 0.9rem;
+}
+
+footer strong {
+    color: #00d2df;
 }
