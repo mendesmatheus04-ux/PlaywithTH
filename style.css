@@ -1,7 +1,9 @@
 body {
-    background-color: rgb(37, 31, 32);
+    background-color: #107C41; /* Verde do Xbox como base */
+    background-color: #121212; /* Cinza bem escuro para o fundo principal */
 }
 
 h1 {
-    color: rgb(97, 123, 141);
+    color: #107C41; /* Verde oficial do Xbox para o título */
+    font-size: 75px;
 }
