@@ -23,31 +23,26 @@ header h1 span {
     color: #a6a6a6;
 }
 
+/* Novo estilo para centralizar todo o conteúdo */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
 h2 {
     color: #ffffff;
     margin-top: 40px;
-    margin-left: 20px;
+    text-align: left;
     border-left: 4px solid #ffffff;
     padding-left: 10px;
 }
 
-.rating {
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: #e5a93c;
-    font-size: 1rem;
-}
-
-.rating span {
-    color: #ffffff;
-    font-weight: bold;
-}
-
 iframe {
     width: 100%;
-    max-width: 560px;
-    height: 315px;
+    max-width: 500px;
+    height: 280px;
     border-radius: 8px;
     margin: 10px;
     border: 1px solid #333333;
