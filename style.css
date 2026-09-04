@@ -31,6 +31,19 @@ h2 {
     padding-left: 10px;
 }
 
+.rating {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #e5a93c;
+    font-size: 1rem;
+}
+
+.rating span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
 iframe {
     width: 100%;
     max-width: 560px;
@@ -38,6 +51,12 @@ iframe {
     border-radius: 8px;
     margin: 10px;
     border: 1px solid #333333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+iframe:hover {
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
 }
 
 footer {
@@ -52,12 +71,4 @@ footer {
 
 footer strong {
     color: #ffffff;
-}
-iframe {
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-iframe:hover {
-    border: 1px solid #ffffff;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
 }
