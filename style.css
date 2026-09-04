@@ -23,37 +23,20 @@ header h1 span {
     color: #a6a6a6;
 }
 
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 h2 {
     color: #ffffff;
-    font-size: 1.6rem;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    text-align: left;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    margin-top: 40px;
+    margin-left: 20px;
     border-left: 4px solid #ffffff;
-    border-bottom: 1px solid #333333;
-    padding-left: 12px;
-    padding-bottom: 8px;
-}
-
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+    padding-left: 10px;
 }
 
 iframe {
     width: 100%;
-    max-width: 360px;
-    height: 215px;
+    max-width: 560px;
+    height: 315px;
     border-radius: 8px;
+    margin: 10px;
     border: 1px solid #333333;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
